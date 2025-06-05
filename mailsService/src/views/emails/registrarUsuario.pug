@@ -1,0 +1,12 @@
+extends ./base/baseEmail
+
+block content 
+  block title Registrar Usuario
+
+  block body
+    h1 Registrar Usuario
+    p Hola #{usuario.nombre},<br>
+      Te damos la bienvenida a nuestro servicio.
+    p Si no has solicitado este registro, puedes ignorar este correo.
+    p Saludos,<br>
+      El equipo de soporte.
