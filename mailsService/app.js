@@ -1,6 +1,6 @@
 const { config } = require('dotenv');
 const { Server, ServerCredentials } = require('@grpc/grpc-js');
-const startConsumer = require ('./src/queue/consumers/consumer');
+const startConsumer = require ('./src/queue/consumers/invoicesConsumer');
 
 config({path: '.env'});
 

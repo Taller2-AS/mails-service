@@ -45,8 +45,8 @@ module.exports = class Email {
         await this.newTransport().sendMail(mailOptions);
     }
 
-    async sendRegisterEmail(user) {
+    async sendUpdateInvoiceEmail(user) {
         this.to = user.email;
-        await this.send('registrarUsuario', 'Bienvenido a nuestra plataforma', user);
+        await this.send('facturaActualizada', 'Se ha actualizado tu factura', user);
     }
 };
