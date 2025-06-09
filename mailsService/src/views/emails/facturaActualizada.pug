@@ -1,0 +1,13 @@
+extends ./base/baseEmail
+
+block content 
+  block title Factura Actualizada
+
+  block body
+    h1 Factura Actualizada
+    p Hola #{invoice.nombre},<br>
+    p Tu factura con el número #{invoice.id} ha sido actualizada: 
+    p Monto: #{invoice.monto}.
+    p Estado de la Factura: #{invoice.estado}.    
+    p Saludos,<br>
+      El equipo de soporte.
