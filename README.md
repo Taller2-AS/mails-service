@@ -1,6 +1,6 @@
-﻿# 👨‍💻 Microservicio de Usuarios – StreamFlow
+﻿# 👨‍💻 Microservicio de Correos – StreamFlow
 
-Este microservicio forma parte del proyecto **StreamFlow**, De la asignatura **Arquitectura de Sistemas**. Administra la información relacionada a los usuarios disponibles, permitiendo su creación, actualización, eliminación lógica y consulta.
+Este microservicio forma parte del proyecto **StreamFlow**, De la asignatura **Arquitectura de Sistemas**. Se relaciona con el microservicio de facturas con el fin de informar al usuario sobre la actualización de su factura.
 
 ---
 
@@ -8,8 +8,7 @@ Este microservicio forma parte del proyecto **StreamFlow**, De la asignatura **A
 
 - Node.js v18.x o superior  
 - Docker  
-- RabbitMQ   
-- MongoDB   
+- RabbitMQ    
 - Postman 
 
 ---
